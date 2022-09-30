@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    padding-top: 200px;
+    position: relative;
+}
+
+.box {
+    display: flex;
+}
+
+.card {
+    max-width: 300px;
+    width: 100%;
+    border: 5px solid #fafafa;
+}
+
+.block {
+    padding: 20px;
+}
+
+.card__images {
+    width: 100%;
+}
+
+.slick-prev {
+    position: absolute;
+    left: calc(50% + 50px);
+    top: -100px;
+    cursor: pointer;
+    border: none;
+}
+
+.slick-prev::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    padding: 14px;
+    background-color: black;
+    background-image: url("./images/ic-chevron-left.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 6px;
+    content: "";
+}
+
+.slick-next {
+ position: absolute;
+ left: calc(50% + 150px);
+ top: -100px;
+ border: none;
+ cursor: pointer;
+}
+
+.slick-next::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    padding: 14px;
+    background-color: black;
+    background-image: url("./images/ic-chevron-right.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 6px;
+    content: "";
+}
+
+.green {
+    color:green
+}
+.blue {
+    color:blue;
+}
+
